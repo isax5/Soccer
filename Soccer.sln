@@ -24,6 +24,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Cross.Android", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soccer.Cross.iOS", "src\Soccer.Cross.iOS\Soccer.Cross.iOS.csproj", "{28EF82FC-8316-40EF-8B96-20F706537DDB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross", "Cross", "{7EB5EE6F-28B6-4442-B7FA-C7DB74D73B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{93F58FD1-E506-401C-844B-013C4CF7FFDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -229,6 +233,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78F64560-2663-4C08-B1C8-C20436641325} = {93F58FD1-E506-401C-844B-013C4CF7FFDD}
+		{443DB36F-CCDC-488D-99F2-C40040D190A3} = {93F58FD1-E506-401C-844B-013C4CF7FFDD}
+		{12A2D437-CF91-4B61-AB4F-F2E1EA53CFD4} = {93F58FD1-E506-401C-844B-013C4CF7FFDD}
+		{DFE02906-70B5-49EB-A89D-2F090732AA0A} = {7EB5EE6F-28B6-4442-B7FA-C7DB74D73B1A}
+		{28EF82FC-8316-40EF-8B96-20F706537DDB} = {7EB5EE6F-28B6-4442-B7FA-C7DB74D73B1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6EAAF31-D730-4AB1-A65D-E200CE044CFC}
