@@ -40,6 +40,7 @@ namespace Soccer.Web
             });
 
             // Injections
+            services.AddTransient<SeedDb>();
             services.AddScoped<IImageHelper, ImageHelper>();
             services.AddScoped<IConverterHelper, ConverterHelper>();
 
